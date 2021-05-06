@@ -11,7 +11,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link href="rpg.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
@@ -27,10 +27,10 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home </a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">RandomSelector<span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="random_selector.html">RandomSelector</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="time_count.html">TimeCount</a>
@@ -41,8 +41,8 @@
             <li class="nav-item">
               <a class="nav-link" href="mind_quiz.html">MindQuiz</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="rpg.html">RPG</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">RPG <span class="sr-only">(current)</span></a>
             </li>
           </ul>
           <form class="form-inline mt-2 mt-md-0">
@@ -55,16 +55,17 @@
 
     <main role="main">
 
-      <div class="container marketing">
-        <hr class="featurette-divider">
-            <h1>?</h1>
-            <input type="button" value="今天晚上吃什麼">
-            <ul id="choices">
-                <li title="image/ramen.jpeg">拉麵</li>
-                <li title="image/luroufan.jpg">滷肉飯</li>
-                <li title="image/dumpling.jpg">水餃</li>
-            </ul>
-            <img>
+      <div>
+          <br>
+        <h1>我要去右下角</h1>
+        <div>
+            <canvas id="myCanvas" width="600" height="600"></canvas>
+            <p id="talkBox"></p>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="main_rpg.js"></script>
+      </div>
+
         <hr class="featurette-divider">
 
         <!-- /END THE FEATURETTES -->
@@ -88,7 +89,5 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="assets/js/vendor/holder.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="main.js"></script>
   </body>
 </html>
