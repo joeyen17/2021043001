@@ -10,7 +10,7 @@ $(function(){
     ctx = $("#myCanvas")[0].getContext("2d");
 
     imgMain = new Image();
-    imgMain.src = "/images/spriteSheet.png";
+    imgMain.src = "images/spriteSheet.png";
     currentImgMain = {
         "x":0,
         "y":0
